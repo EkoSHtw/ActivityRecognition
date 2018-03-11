@@ -28,10 +28,7 @@ public class ActivityRecognizedService extends IntentService {
         super("ActivityRecognizedService");
     }
     private MediaScannerConnection mediaScannerConnection;
-
-    public ActivityRecognizedService(String name) {
-        super(name);
-    }
+    
     private File motionLogFile;
     private String textLine;
 
